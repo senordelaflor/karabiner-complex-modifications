@@ -1,0 +1,24 @@
+{
+  "title": "Click",
+  "rules": [
+    {
+      "description": "Click",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "non_us_backslash",
+            "modifiers": {
+              "optional": ["command", "option", "shift"]
+            }
+          },
+          "to": [
+            {
+              "pointing_button": "button1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
